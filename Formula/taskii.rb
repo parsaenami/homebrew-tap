@@ -1,26 +1,26 @@
 class Taskii < Formula
   desc "Keyboard-driven task manager and dashboard for your terminal"
   homepage "https://github.com/parsaenami/taskii"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/parsaenami/taskii/releases/download/v0.3.0/taskii-darwin-arm64.tar.gz"
-      sha256 "6ac40f6d835c6046d718adc049f8092c758514b03885a22cc3d4e5f0b28290dd"
+      url "https://github.com/parsaenami/taskii/releases/download/v0.4.0/taskii-darwin-arm64.tar.gz"
+      sha256 "10478f312cf86dcb033fd5b2a661bbdc01c552edf92adf736fbea47d06a6cccb"
     else
-      url "https://github.com/parsaenami/taskii/releases/download/v0.3.0/taskii-darwin-amd64.tar.gz"
-      sha256 "47a42707bded68cf116f61498703975604b27004504e6231cf5c063937778613"
+      url "https://github.com/parsaenami/taskii/releases/download/v0.4.0/taskii-darwin-amd64.tar.gz"
+      sha256 "409a1f28c53e3d3d98548fa6808a48033d007eba52106617ba6bdf656e6a6b6d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/parsaenami/taskii/releases/download/v0.3.0/taskii-linux-arm64.tar.gz"
-      sha256 "fb200dfb5a0a76d69a79f50e9d3ccacf14ff2ded09536491aa081381d1ec873d"
+      url "https://github.com/parsaenami/taskii/releases/download/v0.4.0/taskii-linux-arm64.tar.gz"
+      sha256 "79bcbbdd554810a6cc46e94a839082787fcf73e6a4a947f3e437251bf70e3d35"
     else
-      url "https://github.com/parsaenami/taskii/releases/download/v0.3.0/taskii-linux-amd64.tar.gz"
-      sha256 "eb73c3a50ecbfc05bcc167b2596416e59160c9c6fafc498c8101ba4e2e217b0c"
+      url "https://github.com/parsaenami/taskii/releases/download/v0.4.0/taskii-linux-amd64.tar.gz"
+      sha256 "ff6769168abb9ef52f4bfbd0dc692dff5752644d7ec894ac99570fd6dc8a6a05"
     end
   end
 
